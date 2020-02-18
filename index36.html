@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Пример с линиями</title>
+  </head>
+<body>
+  <h1>Пример простой</h1>
+	<script>
+	  function line(width)
+	  {
+		document.writeln("<hr align='center' width='" + width + "'>");
+	  }
+	  var lineWidth = 10;
+	  line(lineWidth)
+	  for (i = 0; i < 19; i ++){
+		lineWidth = lineWidth + 20
+		line(lineWidth)
+	  }
+	</script>
+</body>
+</html>
